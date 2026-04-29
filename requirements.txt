@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 requests
+=======
+requests
+>>>>>>> 14d7cd52519513b398f3fd8695594d032241b2eb
 pydantic
