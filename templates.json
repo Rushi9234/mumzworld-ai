@@ -1,0 +1,42 @@
+{
+    "order_tracking": {
+      "en": "Thank you for contacting Mumzworld. We understand how important timely delivery is, especially for baby essentials. We are checking on your order right now and will provide you with an update within 24 hours. You can also track your order at any time through the Mumzworld app.",
+      "ar": "شكرًا لتواصلك مع ممزورلد. نتفهم أهمية وصول طلبك في الوقت المناسب، خاصةً عند تعلق الأمر بمستلزمات الأطفال. نقوم الآن بمتابعة حالة طلبك وسنزودك بتحديث خلال 24 ساعة. يمكنك أيضًا تتبع طلبك في أي وقت عبر تطبيق ممزورلد."
+    },
+    "return_request": {
+      "en": "We are sorry to hear you would like to return your item. At Mumzworld, we want every purchase to be perfect. Please share your order number and reason for return, and our team will guide you through the process. Returns are accepted within 15 days of delivery.",
+      "ar": "نأسف لرغبتك في إرجاع المنتج. في ممزورلد، نحرص على أن تكون كل عملية شراء مثالية. يرجى مشاركتنا رقم طلبك وسبب الإرجاع، وسيرشدك فريقنا خلال الإجراءات اللازمة. تُقبل المرتجعات خلال 15 يومًا من تاريخ التسليم."
+    },
+    "refund_request": {
+      "en": "Thank you for reaching out. We have noted your refund request and our team will review it within 3-5 business days. Once approved, the amount will be credited back to your original payment method. We appreciate your patience.",
+      "ar": "شكرًا لتواصلك معنا. لقد سجّلنا طلب الاسترداد الخاص بك، وسيراجعه فريقنا خلال 3-5 أيام عمل. بعد الموافقة، سيُعاد المبلغ إلى وسيلة الدفع الأصلية. نقدّر صبرك وتفهمك."
+    },
+    "damaged_item": {
+      "en": "We sincerely apologize that you received a damaged item — this is not the Mumzworld standard. Please send us a photo of the damage along with your order number and we will arrange an immediate replacement at no extra cost to you.",
+      "ar": "نعتذر بشدة لتلقيك منتجًا تالفًا، فهذا لا يتوافق مع معايير ممزورلد. يرجى إرسال صورة للضرر مع رقم طلبك، وسنرتب لك بديلاً فوريًا دون أي تكلفة إضافية."
+    },
+    "wrong_item": {
+      "en": "We apologize for sending you the wrong item. Please share your order number and a photo of what you received, and we will arrange the correct item to be shipped to you as soon as possible.",
+      "ar": "نعتذر عن إرسال المنتج الخطأ إليك. يرجى مشاركتنا رقم طلبك وصورة للمنتج المستلم، وسنحرص على شحن المنتج الصحيح إليك في أقرب وقت."
+    },
+    "product_inquiry": {
+      "en": "Thank you for your interest in our products! Our team would be happy to help you find exactly what you need for your little one. Could you share more details about what you are looking for so we can assist you better?",
+      "ar": "شكرًا لاهتمامك بمنتجاتنا! يسعد فريقنا مساعدتك في إيجاد ما يناسب طفلك تمامًا. هل يمكنك مشاركتنا مزيدًا من التفاصيل حول ما تبحث عنه؟"
+    },
+    "complaint": {
+      "en": "We are truly sorry to hear about your experience. This is not the standard we hold ourselves to at Mumzworld, and your feedback is taken very seriously. A member of our team will follow up with you personally to make this right.",
+      "ar": "نأسف جدًا لما مررت به. هذا لا يعكس المستوى الذي نسعى إليه في ممزورلد، ونأخذ ملاحظاتك بجدية تامة. سيتواصل معك أحد أعضاء فريقنا شخصيًا لمعالجة الأمر."
+    },
+    "payment_issue": {
+      "en": "We apologize for the payment issue you experienced. Please share your order number and a description of the problem, and our billing team will investigate and resolve this within 48 hours.",
+      "ar": "نعتذر عن مشكلة الدفع التي واجهتها. يرجى مشاركتنا رقم طلبك ووصفًا للمشكلة، وسيتولى فريق المدفوعات لدينا التحقيق في الأمر وحله خلال 48 ساعة."
+    },
+    "general_inquiry": {
+      "en": "Thank you for contacting Mumzworld. We are happy to help! Could you please provide more details about your question so we can give you the most accurate information?",
+      "ar": "شكرًا لتواصلك مع ممزورلد. يسعدنا مساعدتك! هل يمكنك تزويدنا بمزيد من التفاصيل حول استفسارك حتى نتمكن من تقديم المعلومات الأدق؟"
+    },
+    "out_of_scope": {
+      "en": "Thank you for reaching out. It seems your message is outside the scope of our customer support. Mumzworld specializes in baby and maternity products for families across the GCC. If you have questions about our products or orders, we are here to help!",
+      "ar": "شكرًا لتواصلك معنا. يبدو أن رسالتك خارج نطاق خدمة العملاء لدينا. تختص ممزورلد بمنتجات الأمومة والطفولة للعائلات في منطقة الخليج. إن كان لديك أي استفسار عن منتجاتنا أو طلباتك، فنحن هنا للمساعدة!"
+    }
+  }
