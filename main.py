@@ -43,7 +43,7 @@ def get_template(intent: str) -> tuple[str, str]:
 
 import time
 
-def call_llm(messages, max_retries=3):
+def call_llm(system_prompt, email_text, max_retries=3):
     url = "https://openrouter.ai/api/v1/chat/completions"
 
     headers = {
@@ -53,7 +53,10 @@ def call_llm(messages, max_retries=3):
 
     data = {
         "model": MODEL,
-        "messages": messages
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": email_text}
+        ]
     }
 
     for attempt in range(max_retries):
@@ -69,7 +72,7 @@ def call_llm(messages, max_retries=3):
         except Exception as e:
             print("Retrying...", e)
 
-        time.sleep(2 ** attempt)  # 1s, 2s, 4s
+        time.sleep(2 ** attempt)
 
     return None
 
