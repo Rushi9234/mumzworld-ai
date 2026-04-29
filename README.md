@@ -1,4 +1,13 @@
 # Mumzworld Bilingual Support Intelligence Layer
+
+**Track: A**
+
+**Loom Walkthrough: [Add your Loom link here]**
+
+An AI-powered email triage system built specifically for Mumzworld's GCC customer base. Classifies Arabic and English customer emails into structured, validated outputs with intent detection, urgency scoring, escalation routing, and native-quality bilingual responses.
+
+---
+
 ## Quick Start
 
 1. Set API key  
@@ -10,13 +19,6 @@
 
 3. Run evaluation  
    python evaluator.py
-   
-**Track: A**
-
-**Loom Walkthrough: [Add your Loom link here]**
-
-An AI-powered email triage system built specifically for Mumzworld's GCC customer base. Classifies Arabic and English customer emails into structured, validated outputs with intent detection, urgency scoring, escalation routing, and native-quality bilingual responses.
-
 ---
 
 ## One-Paragraph Summary
@@ -199,3 +201,15 @@ API reliability: The current prototype does not include retry/backoff logic for 
 
 OpenRouter + DeepSeek Chat for email classification and bilingual response generation. Cursor AI for code scaffolding and iteration. Key design decisions (single-call architecture, business rules engine, evaluation logic) were made and validated manually. All prompts were written and refined by hand.
 
+## Example Output
+
+{
+  "intent": "damaged_item",
+  "urgency": "high",
+  "confidence": 0.91,
+  "reasoning": "Customer reported damaged product and urgency",
+  "reply_en": "We apologize for the damaged item...",
+  "reply_ar": "نعتذر عن المنتج التالف...",
+  "needs_human": false,
+  "routed_to": "returns_team"
+}
