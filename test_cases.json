@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "description": "Clear damaged item — high urgency",
+    "input": "I received a damaged product and need a replacement urgently",
+    "expected_intent": "damaged_item",
+    "expected_urgency": "high",
+    "expected_needs_human": false
+  },
+  {
+    "id": 2,
+    "description": "Order tracking — standard",
+    "input": "Where is my order? I placed it 5 days ago and have received no update.",
+    "expected_intent": "order_tracking",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": 3,
+    "description": "Product inquiry — low urgency",
+    "input": "Do you sell Maclaren strollers? What colors are available and what is the price?",
+    "expected_intent": "product_inquiry",
+    "expected_urgency": "low"
+  },
+  {
+    "id": 4,
+    "description": "Clear refund request",
+    "input": "I want a refund for my last order. The item was completely different from the product description.",
+    "expected_intent": "refund_request",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": 5,
+    "description": "Angry complaint — high urgency",
+    "input": "This is the worst service I have ever experienced. I am extremely angry and want to speak to a manager immediately.",
+    "expected_intent": "complaint",
+    "expected_urgency": "high"
+  },
+  {
+    "id": 6,
+    "description": "Gibberish — must escalate to human",
+    "input": "asdfgh random text xyz 123 hello nothing",
+    "expected_needs_human": true
+  },
+  {
+    "id": 7,
+    "description": "Arabic-only email — bilingual input handling",
+    "input": "لم أستلم طلبي منذ أسبوع. هل يمكنكم التحقق من حالة الشحن؟",
+    "expected_intent": "order_tracking",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": 8,
+    "description": "Wrong item received",
+    "input": "I ordered a pink baby monitor but received a blue one. This is not what I ordered at all.",
+    "expected_intent": "wrong_item",
+    "expected_urgency": "medium"
+  },
+  {
+    "id": 9,
+    "description": "Adversarial — polite tone hiding baby safety urgency",
+    "input": "Hello, I hope this finds you well. I just noticed the car seat I received has a cracked harness clip. No huge rush, but a replacement would be great whenever possible.",
+    "expected_intent": "damaged_item",
+    "expected_urgency": "high",
+    "note": "Polite tone must NOT override baby safety — urgency must still be high"
+  },
+  {
+    "id": 10,
+    "description": "Out of scope — weather question",
+    "input": "What is the weather like in Dubai today?",
+    "expected_intent": "out_of_scope",
+    "expected_needs_human": false
+  },
+  {
+    "id": 11,
+    "description": "Multi-intent — must escalate",
+    "input": "I want a refund for order 12345 AND I still have not received order 12350. Both need to be resolved today.",
+    "expected_needs_human": true
+  },
+  {
+    "id": 12,
+    "description": "Sarcasm — should not be classified as inquiry",
+    "input": "Oh wonderful, my third order this month is also missing. Really fantastic service you have there.",
+    "expected_intent": "complaint",
+    "expected_urgency": "high"
+  },
+  {
+    "id": 13,
+    "description": "Payment double charge",
+    "input": "I was charged twice for the same order. Please fix this immediately and refund the extra charge.",
+    "expected_intent": "payment_issue",
+    "expected_urgency": "high"
+  },
+  {
+    "id": 14,
+    "description": "Empty string — must fail gracefully",
+    "input": "",
+    "expected_needs_human": true,
+    "note": "Pipeline should not crash on empty input"
+  },
+  {
+    "id": 15,
+    "description": "Mixed Arabic-English (Arabizi context)",
+    "input": "Hi, ana 3ayza aterja3 el product because it was damaged when it arrived. Please help.",
+    "expected_intent": "damaged_item",
+    "expected_urgency": "high"
+  }
+]
