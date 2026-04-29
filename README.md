@@ -1,15 +1,16 @@
-I reviewed your README line by line  and applied the exact improvements we discussed—without changing your structure or weakening your work.
-
-Below is your **FINAL corrected version (copy-paste)** with only the necessary upgrades.
-
----
-
-# ✅ FINAL UPDATED README (COPY THIS)
-
----
-
 # Mumzworld Bilingual Support Intelligence Layer
+## Quick Start
 
+1. Set API key  
+   Windows: set OPENROUTER_API_KEY=your_key_here  
+   Mac/Linux: export OPENROUTER_API_KEY=your_key_here  
+
+2. Run system  
+   python main.py  
+
+3. Run evaluation  
+   python evaluator.py
+   
 **Track: A**
 
 **Loom Walkthrough: [Add your Loom link here]**
